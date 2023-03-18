@@ -1,0 +1,47 @@
+[
+  {
+    "model": "app.Departments",
+    "pk": 1,
+    "fields": {
+      "department_id": "010",
+      "name": "営業部",
+      "parent_id": ""
+    }
+  },
+  {
+    "model": "app.Departments",
+    "pk": 2,
+    "fields": {
+      "department_id": "011",
+      "name": "営業部１課",
+      "parent_id": "010"
+    }
+  },
+  {
+    "model": "app.Departments",
+    "pk": 3,
+    "fields": {
+      "department_id": "012",
+      "name": "営業部２課",
+      "parent_id": "010"
+    }
+  },
+  {
+    "model": "app.Departments",
+    "pk": 4,
+    "fields": {
+      "department_id": "020",
+      "name": "企画部",
+      "parent_id": ""
+    }
+  },
+  {
+    "model": "app.Departments",
+    "pk": 5,
+    "fields": {
+      "department_id": "030",
+      "name": "総務部",
+      "parent_id": ""
+    }
+  }
+]
