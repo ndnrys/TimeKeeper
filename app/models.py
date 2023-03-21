@@ -12,6 +12,9 @@ class Departments(models.Model):
     def __str__(self):
         return self.department_id + "\t" + self.name
     
+    def get_title(self):
+        return '部署ID: {} 部署名: {}'.format(self.department_id, self.name)
+    
     class Meta:
         db_table = 'm_departments'
 

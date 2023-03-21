@@ -1,0 +1,11 @@
+{% extends 'app/base.html' %}
+
+{% block title %}部署一覧{% endblock %}
+
+{% block content %}
+  <h1>詳細</h1>
+
+  部署ID: {{departments.department_id}}
+  部署名: {{departments.name}}
+親部署ID: {{departments.parent_id}}
+{% endblock %}
