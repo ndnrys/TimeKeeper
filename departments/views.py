@@ -19,4 +19,13 @@ def new(request):
     pass
 
 def edit(request, pk):
-    pass
+    print("---------")
+    print(pk, request)
+    print("---------")
+    departments = get_object_or_404(Departments, pk=pk)
+    print("---------")
+    print(departments)
+    print("---------")
+
+    return render(request, 'app/departments/edit.html', {'departments': departments})
+    
